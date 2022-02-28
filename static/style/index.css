@@ -1,0 +1,78 @@
+/* Color Palette Variables */
+:root {
+    --primary_light: #ffffff; /* Change to desired color */
+    --primary_dark: #000000; /* Change to desired color */
+    --accent_dark: #2C5E1A; /* Change to desired color */
+    --accent_light: #f5fffa; /* Change to desired color */
+    --font: 'Ubuntu', sans-serif; /* Change to desired font at https://fonts.google.com/*/
+  }
+
+/* Universal */
+* {
+    font-family: var(--font);
+}
+h1 {
+    font-size: 250%;
+    color: var(--accent_dark);
+}
+p {
+    font-size: 120%;
+    color: var(--primary_dark);
+}
+a {
+    text-decoration: none;
+    color: var(--accent_dark);
+}
+a:hover {
+    color: var(--primary_dark);
+}
+
+/* Logo */
+.logo {
+    width: 200px;
+}
+
+/* Index */
+.index-body {
+    background-color: var(--primary_light);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+.index-form input {
+    background-color: var(--accent_light);
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: var(--accent_dark);
+}
+.index-form button {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--accent_dark);
+    color: var(--primary_light);
+    border: none;
+    border-radius: 10px;
+    padding: 16px 16px;
+    margin: 15px 0px;
+    width: 100px;
+    cursor: pointer;
+  }
+.index-form button:hover {
+    background-color: var(--primary_dark);
+  }
+
+/* Hidden */
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Style Sheets -->
+        <link rel='stylesheet' type='text/css' href="{{ url_for ('static', filename='style/base.css')}}">
+        <link rel='stylesheet' type='text/css' href="{{ url_for ('static', filename='style/index.css')}}">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap" rel="stylesheet"> <!-- Go to https://fonts.google.com/ to change the "href" to your desired font -->
+        <!-- Title -->
+        <title>MeowFree</title> <!-- Change to desired title -->
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="{{ url_for ('static', filename='images/favicon.png')}}">
+
+    </head>
+
+    <body>
+        {% for message in get_flashed_messages() %}
+        <div class="alert">{{ message }}</div>
+        {% endfor %}
+        
+        <div class="content">
+            {% block content %}
+            
+            {% endblock %}
+        </div>
+    </body>
+</html>
