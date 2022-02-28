@@ -1,4 +1,4 @@
-# MerakiCaptivePortalsInPython
+# Meraki Captive Portals in Python
 
 Create Custom Meraki Captive Portals in Python.
 
