@@ -96,6 +96,8 @@ End-users who attempt to access an HTTPS site before connecting to the Captive P
 
 Meraki can not perform HTTPS inspection outside of the 15.X Beta program.  As a result it is not possible to actively redirect HTTPS requests to the captive portal page before they attempt to authenticate.
 
+There is an issue with the CSS and mobile browsers that is preventing proper resizing on some devices.  We are currently investigating the cause of this issue.
+
 ## Getting help
 
 There are a wealth of resources out there about Captive Portals in Meraki. In particular, the authors recommend Cisco's Captive Portal API documentation on DevNet (https://developer.cisco.com/meraki/captive-portal-api/#!overview/introduction-to-captive-portal-api) though their solution uses Javascript in place of Python.
