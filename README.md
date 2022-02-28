@@ -27,18 +27,17 @@ On the server where you want to host the Captive Portal:
 1. Clone the repository
 2. pip install -r requirements.txt
 3. Configure the port in line 34 of app.py
-```
-{
 
+```
 33 if __name__ == '__main__':
 34     app.run(host='0.0.0.0', port=5050)
-
-}
 ```
 
 4. Configure the redirect website in line 29
 
+```
 29        return redirect('https://www.example.com/')
+```
 
 5. python3 app.py
 
