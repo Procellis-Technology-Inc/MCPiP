@@ -113,9 +113,9 @@ See LICENSE for the full text.
 
 This project was written and is maintained by the following individuals:
 
-* Nathan Haleen <nathan.haleen@procellis.com>
+* Nathan Haleen (<nathan.haleen@procellis.com>)
 * Julia Ha
-* Shouayee Vue (shouayee.vue@procellis.com)
-* Ruben Dedman (rubend@synnex.com)
+* Shouayee Vue (<shouayee.vue@procellis.com>)
+* Ruben Dedman (<rubend@synnex.com>)
 * Halley Paulson
 * Beth Taylor
