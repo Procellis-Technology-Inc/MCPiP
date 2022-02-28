@@ -92,7 +92,7 @@ Meraki can not perform HTTPS inspection outside of the 15.X Beta program.  As a 
 
 ## Getting help
 
-Their are a wealth of resources out there about Captive Portals in Meraki.
+There are a wealth of resources out there about Captive Portals in Meraki.
 
 For Flask issues, please refer to the official Flask documentation at https://flask.palletsprojects.com/en/2.0.x/ .  The authors would also recommend Miguel Grinberg's Flask Mega-Tutorial at https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world .
 
