@@ -2,7 +2,7 @@
 
 Create Custom Meraki Captive Portals in Python.
 
-![add-image-here]()
+[Sample Custom Captive Portal](username.github.com/repository/img/image.jpg)
  
 ## Use Case Description
 MCPiP is a basic getting-started repository with the elements needed to create a simple Meraki Captive Portal using Python and Flask.
