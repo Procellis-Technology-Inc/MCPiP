@@ -10,7 +10,8 @@ MCPiP is a basic getting-started repository with the elements needed to create a
 The intended use case for this software is a learning resource and base code for creating original captive portals for a business.  Captive Portals themselves are an important security, marketing and outreach tool for businesses of all sizes.
 
 Features
-Customizable Jinja2 template based splashscreen<br>
+Customizable Jinja2 template based splashscreen
+
 Redirection to any website upon connection
 
 
@@ -80,14 +81,12 @@ Ideas to deploy and otherwise improve this code:
 
 ## How to test the software
 
-Provide details on steps to test, versions of components/dependencies against which code was tested, date the code was last tested, etc. 
-If the repo includes automated tests, detail how to run those tests.
-If the repo is instrumented with a continuous testing framework, that is even better.
-
+The easiest way to test the software is to create a new SSID on a Meraki MR device and set up the captive portal to load on that device.  Then connect a mobile device to the SSID and attempt to navigate to an HTTP site (http://www.example.com works well).  At this point you will be redirected to the captive portal, where you can click connect and be automatically redirected to your original destination. NOTE: if you go to an HTTPS site you will not be redirected (see Known issues).  
 
 ## Known issues
 
 End-users who attempt to access an HTTPS site before connecting to the Captive Portal will not be redirected.  Instead the browser will attempt to authenticate the SSL/TLS certificate for the website and fail if the site is not in the walled garden.  The end-user will see a browser timeout message, or their device will likely switch back to using mobile data to access the site.
+
 Meraki can not perform HTTPS inspection outside of the 15.X Beta program.  As a result it is not possible to actively redirect HTTPS requests to the captive portal page before they attempt to authenticate.
 
 ## Getting help
