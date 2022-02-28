@@ -10,7 +10,7 @@ MCPiP is a basic getting-started repository with the elements needed to create a
 The intended use case for this software is a learning resource and base code for creating original captive portals for a business.  Captive Portals themselves are an important security, marketing and outreach tool for businesses of all sizes.
 
 Features
-Customizable Jinja2 template based splashscreen
+Customizable Jinja2 template based splashscreen<br>
 Redirection to any website upon connection
 
 
