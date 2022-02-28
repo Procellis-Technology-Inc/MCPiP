@@ -16,11 +16,11 @@ Redirection to any website upon connection
 
 ## Installation
 
-Requirements
-Python >= 3.7
-Flask >= 2.0.3
-Flask-Session >= 0.4.0
-os
+Requirements<br>
+Python >= 3.7<br>
+Flask >= 2.0.3<br>
+Flask-Session >= 0.4.0<br>
+os<br>
 
 On the server where you want to host the Captive Portal:
 1. Clone the repository
