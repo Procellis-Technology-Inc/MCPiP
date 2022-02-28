@@ -46,21 +46,20 @@ In the Meraki dashboard:
 2. Beneath the SSID to be used, click edit settings.
 3. In the Splash page section, select Click-through.
 4. In the Security settings section
-
+```
 a) Set Captive portal strength to Block all access until sign-on is complete
-
 b) Set Walled garden to Walled garden is enabled
-
 c) Set Walled garden ranges to the address of the server where the Captive Portal application is running
+```
 
 5. Save changes
 6. Next navigate to Wireless > Configure > Splash page
 7. Select the SSID to be used
 8. Under Custom splash page URL
-
+```
 a) Select Or provide a URL where users will be redirected
-
 b) Enter the server address and port where the Captive Portal application is running
+```
 
 9. Save changes
 
