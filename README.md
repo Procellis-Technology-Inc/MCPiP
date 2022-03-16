@@ -130,5 +130,5 @@ This project was written and is maintained by the following individuals:
 * Julia Ha
 * Shouayee Vue (<shouayee.vue@procellis.com>)
 * Ruben Dedman (<rubend@synnex.com>)
-* Halley Paulson
+* Halley Paulson (<halley.paulson@procellis.com>)
 * Beth Taylor
